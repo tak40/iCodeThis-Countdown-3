@@ -6,11 +6,35 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Countdown</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <main>
             <h1>JUST A LITTLE MORE...</h1>
+            <section class="countdown">
+                <div class="countdown-item">
+                    <span id="days" class="countdown-number"></span>
+                    <p class="countdown-text">Days</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours" class="countdown-number"></span>
+                    <p class="countdown-text">Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes" class="countdown-number"></span>
+                    <p class="countdown-text">Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds" class="countdown-number"></span>
+                    <p class="countdown-text">Seconds</p>
+                </div>
+            </section>
         </main>
+
         <script src="index.js"></script>
     </body>
 </html>

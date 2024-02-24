@@ -1,0 +1,72 @@
+/** @format */
+
+* {
+    box-sizing: border-box;
+    /* border: dotted 1px red; */
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    width: 80%;
+    margin: 0.5em auto;
+    font-size: 4em;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.countdown-item {
+    width: 12.5em;
+    height: 12.5em;
+    position: relative;
+    background-color: #222; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #e0e0e0
+}
+
+.countdown-text {
+    position: absolute;
+    bottom: -22.5px;
+    left: 20%;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    font-size: 1.75em;
+    color: #aaa;
+    font-weight: bold;
+    white-space: nowrap;
+}
